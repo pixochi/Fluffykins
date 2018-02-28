@@ -1,35 +1,35 @@
 fileFormatVersion: 2
 guid: df8c8b0933023e7408f024159b67f53a
-timeCreated: 1519744120
+timeCreated: 1519814420
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: obstacles_0
-    21300002: obstacles_1
-    21300004: obstacles_2
-    21300006: obstacles_3
-    21300008: obstacles_4
-    21300010: obstacles_5
-    21300012: obstacles_6
-    21300014: obstacles_7
-    21300016: obstacles_8
-    21300018: obstacles_9
+    21300000: swinging spike 1
+    21300002: swinging spike 2
+    21300004: fire 1
+    21300006: fire 2
+    21300008: fire 3
+    21300010: fire 4
+    21300012: fire 5
+    21300014: mine 4
+    21300016: mine 5
+    21300018: mine 6
     21300020: obstacles_10
-    21300022: obstacles_11
-    21300024: obstacles_12
-    21300026: obstacles_13
+    21300022: mine 7
+    21300024: mine 8
+    21300026: mine 3
     21300028: obstacles_14
     21300030: obstacles_15
     21300032: obstacles_16
     21300034: obstacles_17
-    21300036: obstacles_18
+    21300036: mine 9
     21300038: obstacles_19
     21300040: obstacles_20
     21300042: obstacles_21
     21300044: obstacles_22
     21300046: obstacles_23
-    21300048: obstacles_24
-    21300050: obstacles_25
+    21300048: mine 2
+    21300050: mine 1
     21300052: obstacles_26
     21300054: obstacles_27
     21300056: obstacles_28
@@ -38,53 +38,53 @@ TextureImporter:
     21300062: obstacles_31
     21300064: obstacles_32
     21300066: obstacles_33
-    21300068: obstacles_34
-    21300070: obstacles_35
-    21300072: obstacles_36
-    21300074: obstacles_37
-    21300076: obstacles_38
-    21300078: obstacles_39
-    21300080: obstacles_40
-    21300082: obstacles_41
-    21300084: obstacles_42
-    21300086: obstacles_43
-    21300088: obstacles_44
-    21300090: obstacles_45
-    21300092: obstacles_46
-    21300094: obstacles_47
-    21300096: obstacles_48
-    21300098: obstacles_49
-    21300100: obstacles_50
-    21300102: obstacles_51
-    21300104: obstacles_52
-    21300106: obstacles_53
-    21300108: obstacles_54
-    21300110: obstacles_55
-    21300112: obstacles_56
-    21300114: obstacles_57
-    21300116: obstacles_58
-    21300118: obstacles_59
-    21300120: obstacles_60
-    21300122: obstacles_61
-    21300124: obstacles_62
-    21300126: obstacles_63
-    21300128: obstacles_64
-    21300130: obstacles_65
-    21300132: obstacles_66
-    21300134: obstacles_67
-    21300136: obstacles_68
-    21300138: obstacles_69
-    21300140: obstacles_70
-    21300142: obstacles_71
+    21300068: pole big
+    21300070: pole small
+    21300072: spikes 1
+    21300074: spikes 2
+    21300076: coin 1
+    21300078: coin 2
+    21300080: coin 3
+    21300082: coin 4
+    21300084: coin 5
+    21300086: coin 6
+    21300088: snakes appear 1
+    21300090: snakes appear 2
+    21300092: snakes appear 3
+    21300094: snakes appear 4
+    21300096: snakes appear 5
+    21300098: snakes 1
+    21300100: snakes 2
+    21300102: snakes 3
+    21300104: snakes 4
+    21300106: snakes 5
+    21300108: snakes 6
+    21300110: robot walk 1
+    21300112: robot walk 2
+    21300114: robot walk 3
+    21300116: robot walk 4
+    21300118: robot walk 5
+    21300120: robot attack 1
+    21300122: robot attack 2
+    21300124: robot attack 3
+    21300126: robot attack 4
+    21300128: robot attack 5
+    21300130: robot attack 6
+    21300132: robot attack 7
+    21300134: robot explosion 1
+    21300136: robot explosion 2
+    21300138: robot explosion 3
+    21300140: robot explosion 4
+    21300142: robot explosion 6
     21300144: obstacles_72
-    21300146: obstacles_73
+    21300146: robot explosion  7
     21300148: obstacles_74
-    21300150: obstacles_75
-    21300152: obstacles_76
+    21300150: robot explosion 8
+    21300152: robot explosion 5
     21300154: obstacles_77
     21300156: obstacles_78
     21300158: obstacles_79
-    21300160: obstacles_80
+    21300160: robot explosion 9
     21300162: obstacles_81
     21300164: obstacles_82
     21300166: obstacles_83
@@ -174,7 +174,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstacles_0
+      name: swinging spike 1
       rect:
         serializedVersion: 2
         x: 9
@@ -182,13 +182,13 @@ TextureImporter:
         width: 238
         height: 545
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_1
+      name: swinging spike 2
       rect:
         serializedVersion: 2
         x: 265
@@ -196,13 +196,13 @@ TextureImporter:
         width: 220
         height: 510
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_2
+      name: fire 1
       rect:
         serializedVersion: 2
         x: 556
@@ -210,27 +210,27 @@ TextureImporter:
         width: 90
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_3
+      name: fire 2
       rect:
         serializedVersion: 2
-        x: 681
-        y: 1090
+        x: 679
+        y: 1092
         width: 92
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_4
+      name: fire 3
       rect:
         serializedVersion: 2
         x: 801
@@ -238,27 +238,27 @@ TextureImporter:
         width: 98
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_5
+      name: fire 4
       rect:
         serializedVersion: 2
-        x: 927
+        x: 922
         y: 1095
         width: 97
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_6
+      name: fire 5
       rect:
         serializedVersion: 2
         x: 1042
@@ -266,13 +266,13 @@ TextureImporter:
         width: 101
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_7
+      name: mine 4
       rect:
         serializedVersion: 2
         x: 679
@@ -280,13 +280,13 @@ TextureImporter:
         width: 131
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_8
+      name: mine 5
       rect:
         serializedVersion: 2
         x: 827
@@ -294,69 +294,55 @@ TextureImporter:
         width: 150
         height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_9
+      name: mine 6
       rect:
         serializedVersion: 2
         x: 1002
-        y: 942
-        width: 168
-        height: 130
+        y: 924
+        width: 167
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_10
+      name: mine 7
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 1054
-        width: 7
-        height: 9
+        x: 1238
+        y: 919
+        width: 175
+        height: 143
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_11
+      name: mine 8
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 987
-        width: 76
-        height: 74
+        x: 1451
+        y: 977
+        width: 129
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_12
-      rect:
-        serializedVersion: 2
-        x: 1498
-        y: 1027
-        width: 45
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_13
+      name: mine 3
       rect:
         serializedVersion: 2
         x: 534
@@ -364,153 +350,27 @@ TextureImporter:
         width: 108
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_14
+      name: mine 9
       rect:
         serializedVersion: 2
-        x: 1238
-        y: 1035
-        width: 9
-        height: 8
+        x: 1630
+        y: 984
+        width: 129
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_15
-      rect:
-        serializedVersion: 2
-        x: 1264
-        y: 975
-        width: 42
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_16
-      rect:
-        serializedVersion: 2
-        x: 1451
-        y: 977
-        width: 41
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_17
-      rect:
-        serializedVersion: 2
-        x: 1538
-        y: 1033
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_18
-      rect:
-        serializedVersion: 2
-        x: 1697
-        y: 1035
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_19
-      rect:
-        serializedVersion: 2
-        x: 1402
-        y: 1015
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_20
-      rect:
-        serializedVersion: 2
-        x: 1498
-        y: 986
-        width: 39
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_21
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 988
-        width: 39
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_22
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 995
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_23
-      rect:
-        serializedVersion: 2
-        x: 1726
-        y: 1020
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_24
+      name: mine 2
       rect:
         serializedVersion: 2
         x: 1794
@@ -518,13 +378,13 @@ TextureImporter:
         width: 69
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_25
+      name: mine 1
       rect:
         serializedVersion: 2
         x: 1895
@@ -532,125 +392,13 @@ TextureImporter:
         width: 70
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_26
-      rect:
-        serializedVersion: 2
-        x: 1689
-        y: 997
-        width: 28
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_27
-      rect:
-        serializedVersion: 2
-        x: 1733
-        y: 989
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_28
-      rect:
-        serializedVersion: 2
-        x: 1240
-        y: 989
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_29
-      rect:
-        serializedVersion: 2
-        x: 1406
-        y: 985
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_30
-      rect:
-        serializedVersion: 2
-        x: 1751
-        y: 985
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_31
-      rect:
-        serializedVersion: 2
-        x: 1047
-        y: 924
-        width: 83
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_32
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 922
-        width: 24
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_33
-      rect:
-        serializedVersion: 2
-        x: 1357
-        y: 920
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_34
+      name: pole big
       rect:
         serializedVersion: 2
         x: 530
@@ -658,13 +406,13 @@ TextureImporter:
         width: 77
         height: 521
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_35
+      name: pole small
       rect:
         serializedVersion: 2
         x: 661
@@ -672,13 +420,13 @@ TextureImporter:
         width: 77
         height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_36
+      name: spikes 1
       rect:
         serializedVersion: 2
         x: 777
@@ -686,13 +434,13 @@ TextureImporter:
         width: 163
         height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_37
+      name: spikes 2
       rect:
         serializedVersion: 2
         x: 961
@@ -700,13 +448,13 @@ TextureImporter:
         width: 200
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_38
+      name: coin 1
       rect:
         serializedVersion: 2
         x: 1222
@@ -714,13 +462,13 @@ TextureImporter:
         width: 85
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_39
+      name: coin 2
       rect:
         serializedVersion: 2
         x: 1335
@@ -728,13 +476,13 @@ TextureImporter:
         width: 75
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_40
+      name: coin 3
       rect:
         serializedVersion: 2
         x: 1459
@@ -742,13 +490,13 @@ TextureImporter:
         width: 41
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_41
+      name: coin 4
       rect:
         serializedVersion: 2
         x: 1580
@@ -756,13 +504,13 @@ TextureImporter:
         width: 14
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_42
+      name: coin 5
       rect:
         serializedVersion: 2
         x: 1673
@@ -770,13 +518,13 @@ TextureImporter:
         width: 42
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_43
+      name: coin 6
       rect:
         serializedVersion: 2
         x: 1764
@@ -784,13 +532,13 @@ TextureImporter:
         width: 74
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_44
+      name: snakes appear 1
       rect:
         serializedVersion: 2
         x: 846
@@ -798,13 +546,13 @@ TextureImporter:
         width: 60
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_45
+      name: snakes appear 2
       rect:
         serializedVersion: 2
         x: 944
@@ -812,13 +560,13 @@ TextureImporter:
         width: 60
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_46
+      name: snakes appear 3
       rect:
         serializedVersion: 2
         x: 1049
@@ -826,13 +574,13 @@ TextureImporter:
         width: 77
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_47
+      name: snakes appear 4
       rect:
         serializedVersion: 2
         x: 1169
@@ -840,13 +588,13 @@ TextureImporter:
         width: 113
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_48
+      name: snakes appear 5
       rect:
         serializedVersion: 2
         x: 1330
@@ -854,13 +602,13 @@ TextureImporter:
         width: 136
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_49
+      name: snakes 1
       rect:
         serializedVersion: 2
         x: 698
@@ -868,13 +616,13 @@ TextureImporter:
         width: 84
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_50
+      name: snakes 2
       rect:
         serializedVersion: 2
         x: 841
@@ -882,13 +630,13 @@ TextureImporter:
         width: 83
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_51
+      name: snakes 3
       rect:
         serializedVersion: 2
         x: 982
@@ -896,13 +644,13 @@ TextureImporter:
         width: 83
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_52
+      name: snakes 4
       rect:
         serializedVersion: 2
         x: 1114
@@ -910,13 +658,13 @@ TextureImporter:
         width: 81
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_53
+      name: snakes 5
       rect:
         serializedVersion: 2
         x: 1237
@@ -924,13 +672,13 @@ TextureImporter:
         width: 82
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_54
+      name: snakes 6
       rect:
         serializedVersion: 2
         x: 1358
@@ -938,13 +686,13 @@ TextureImporter:
         width: 83
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_55
+      name: robot walk 1
       rect:
         serializedVersion: 2
         x: 665
@@ -952,27 +700,27 @@ TextureImporter:
         width: 140
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_56
+      name: robot walk 2
       rect:
         serializedVersion: 2
-        x: 891
-        y: 367
+        x: 893
+        y: 365
         width: 140
         height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_57
+      name: robot walk 3
       rect:
         serializedVersion: 2
         x: 1117
@@ -980,13 +728,13 @@ TextureImporter:
         width: 140
         height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_58
+      name: robot walk 4
       rect:
         serializedVersion: 2
         x: 1343
@@ -994,13 +742,13 @@ TextureImporter:
         width: 140
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_59
+      name: robot walk 5
       rect:
         serializedVersion: 2
         x: 1569
@@ -1008,13 +756,13 @@ TextureImporter:
         width: 140
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_60
+      name: robot attack 1
       rect:
         serializedVersion: 2
         x: 17
@@ -1022,13 +770,13 @@ TextureImporter:
         width: 162
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_61
+      name: robot attack 2
       rect:
         serializedVersion: 2
         x: 245
@@ -1036,13 +784,13 @@ TextureImporter:
         width: 160
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_62
+      name: robot attack 3
       rect:
         serializedVersion: 2
         x: 458
@@ -1050,27 +798,27 @@ TextureImporter:
         width: 173
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_63
+      name: robot attack 4
       rect:
         serializedVersion: 2
-        x: 697
+        x: 691
         y: 174
         width: 160
         height: 143
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_64
+      name: robot attack 5
       rect:
         serializedVersion: 2
         x: 894
@@ -1078,13 +826,13 @@ TextureImporter:
         width: 189
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_65
+      name: robot attack 6
       rect:
         serializedVersion: 2
         x: 1123
@@ -1092,13 +840,13 @@ TextureImporter:
         width: 186
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_66
+      name: robot attack 7
       rect:
         serializedVersion: 2
         x: 1357
@@ -1106,13 +854,13 @@ TextureImporter:
         width: 178
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_67
+      name: robot explosion 1
       rect:
         serializedVersion: 2
         x: 26
@@ -1120,13 +868,13 @@ TextureImporter:
         width: 148
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_68
+      name: robot explosion 2
       rect:
         serializedVersion: 2
         x: 252
@@ -1134,13 +882,13 @@ TextureImporter:
         width: 144
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_69
+      name: robot explosion 3
       rect:
         serializedVersion: 2
         x: 477
@@ -1148,13 +896,13 @@ TextureImporter:
         width: 138
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_70
+      name: robot explosion 4
       rect:
         serializedVersion: 2
         x: 703
@@ -1162,83 +910,55 @@ TextureImporter:
         width: 149
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_71
+      name: robot explosion 6
       rect:
         serializedVersion: 2
-        x: 1151
+        x: 1152
         y: 25
-        width: 149
-        height: 134
+        width: 154
+        height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_72
+      name: robot explosion  7
       rect:
         serializedVersion: 2
-        x: 1207
-        y: 150
-        width: 12
-        height: 13
+        x: 1369
+        y: 23
+        width: 163
+        height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_73
+      name: robot explosion 8
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 22
-        width: 152
-        height: 139
+        x: 1613
+        y: 26
+        width: 141
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_74
-      rect:
-        serializedVersion: 2
-        x: 1425
-        y: 155
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_75
-      rect:
-        serializedVersion: 2
-        x: 1672
-        y: 104
-        width: 61
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_76
+      name: robot explosion 5
       rect:
         serializedVersion: 2
         x: 932
@@ -1246,203 +966,21 @@ TextureImporter:
         width: 146
         height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: obstacles_77
+      name: robot explosion 9
       rect:
         serializedVersion: 2
-        x: 1370
-        y: 124
-        width: 10
-        height: 10
+        x: 1842
+        y: 30
+        width: 132
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_78
-      rect:
-        serializedVersion: 2
-        x: 1613
-        y: 104
-        width: 43
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_79
-      rect:
-        serializedVersion: 2
-        x: 1843
-        y: 113
-        width: 32
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_80
-      rect:
-        serializedVersion: 2
-        x: 1909
-        y: 130
-        width: 31
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_81
-      rect:
-        serializedVersion: 2
-        x: 1656
-        y: 86
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_82
-      rect:
-        serializedVersion: 2
-        x: 1888
-        y: 104
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_83
-      rect:
-        serializedVersion: 2
-        x: 1614
-        y: 42
-        width: 38
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_84
-      rect:
-        serializedVersion: 2
-        x: 1702
-        y: 47
-        width: 49
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_85
-      rect:
-        serializedVersion: 2
-        x: 1844
-        y: 50
-        width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_86
-      rect:
-        serializedVersion: 2
-        x: 1941
-        y: 65
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_87
-      rect:
-        serializedVersion: 2
-        x: 1291
-        y: 33
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_88
-      rect:
-        serializedVersion: 2
-        x: 1524
-        y: 34
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_89
-      rect:
-        serializedVersion: 2
-        x: 1650
-        y: 26
-        width: 53
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: obstacles_90
-      rect:
-        serializedVersion: 2
-        x: 1886
-        y: 31
-        width: 38
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

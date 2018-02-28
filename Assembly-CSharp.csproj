@@ -53,7 +53,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Backgrounds\BGLoop.cs" />
      <Compile Include="Assets\Scripts\Backgrounds\BGScaler.cs" />
-     <Compile Include="Assets\Scripts\TouchInput.cs" />
+     <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\Game Controllers\GameController.cs" />
+     <Compile Include="Assets\Scripts\Game Controllers\GamePlayController.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\Movement.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ObstacleCollector.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\ObstacleSpawner.cs" />
+     <Compile Include="Assets\Scripts\Player\Animations.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\TouchInput.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

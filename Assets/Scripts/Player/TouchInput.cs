@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TouchInput : MonoBehaviour {
 
-    private float jumpForce = 6.5f, forwardForce = 0f;
+    private float jumpForce = 7.5f, forwardForce = 0f;
     private bool canJump = true;
     private bool canSlide = true;
     private int numberOfJumps = 0;
@@ -14,11 +14,15 @@ public class TouchInput : MonoBehaviour {
     private Rigidbody2D movingBody;
     private BoxCollider2D bodyCollider;
     private Animator animator;
+    private AudioSource audioSource;
+    [SerializeField]
+    private AudioClip jumpClip, slideClip;
 
     void Awake() {
         movingBody = GetComponent<Rigidbody2D>();
         bodyCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update () {
@@ -44,6 +48,7 @@ public class TouchInput : MonoBehaviour {
             canSlide = false;
             numberOfJumps++;
 
+            audioSource.PlayOneShot(jumpClip);
             animator.SetTrigger("Jump");
 
             forwardForce = (movingBody.transform.position.x < 0) ? 1f : 0f;
@@ -55,6 +60,7 @@ public class TouchInput : MonoBehaviour {
         if (canSlide) {
             canJump = false;
             canSlide = false;
+            audioSource.PlayOneShot(slideClip);
             animator.SetTrigger("Slide");
         }   
     }

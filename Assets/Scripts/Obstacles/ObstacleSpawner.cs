@@ -66,11 +66,8 @@ public class ObstacleSpawner : MonoBehaviour
 
     private IEnumerator spawnCoin()
     {
-        Debug.Log("New coin");
         float spawnerX = gameObject.transform.position.x;
         float coinY = Random.Range(-3f, 2.5f);
-        Debug.Log(spawnerX);
-        Debug.Log(coinY);
         GameObject newCoin = Instantiate(coin, new Vector3(spawnerX, coinY, 0f), Quaternion.identity);
         newCoin.SetActive(true);
 

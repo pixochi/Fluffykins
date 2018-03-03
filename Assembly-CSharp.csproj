@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\GameController.cs" />
      <Compile Include="Assets\Scripts\Game Controllers\GamePlayController.cs" />
+     <Compile Include="Assets\Scripts\ObstacleDie.cs" />
      <Compile Include="Assets\Scripts\Obstacles\Movement.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ObstacleCollector.cs" />
      <Compile Include="Assets\Scripts\Obstacles\ObstacleSpawner.cs" />

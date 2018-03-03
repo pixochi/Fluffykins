@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: df8c8b0933023e7408f024159b67f53a
-timeCreated: 1519814420
+timeCreated: 1520073907
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -77,7 +77,7 @@ TextureImporter:
     21300140: robot explosion 4
     21300142: robot explosion 6
     21300144: obstacles_72
-    21300146: robot explosion  7
+    21300146: robot explosion 7
     21300148: obstacles_74
     21300150: robot explosion 8
     21300152: robot explosion 5
@@ -930,7 +930,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: robot explosion  7
+      name: robot explosion 7
       rect:
         serializedVersion: 2
         x: 1369

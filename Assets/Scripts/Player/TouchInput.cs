@@ -28,6 +28,7 @@ public class TouchInput : MonoBehaviour {
     void Update () {
 
         if (movingBody.velocity.y == 0) {
+
             numberOfJumps = 0;
             canSlide = true;
         }

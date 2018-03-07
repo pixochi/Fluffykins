@@ -139,7 +139,7 @@ PlayerSettings:
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   targetPixelDensity: 200
-  resolutionScalingMode: 1
+  resolutionScalingMode: 0
   applicationIdentifier:
     Android: com.pixochi.fluffykins
   buildNumber: {}

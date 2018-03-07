@@ -56,3 +56,6 @@ TagManager:
   - name: Menu
     uniqueID: 537606269
     locked: 0
+  - name: Foreground
+    uniqueID: 3923381553
+    locked: 0

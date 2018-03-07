@@ -10,6 +10,8 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField]
     private GameObject coin;
     private List<GameObject> obstaclesForSpawning = new List<GameObject>();
+    private float minSpawnTime = 3f;
+    private float maxSpawnTime = 5f;
 
     void Start()
     {
@@ -45,7 +47,7 @@ public class ObstacleSpawner : MonoBehaviour
             initializeObstacles();
         }
 
-        float randomTime = Random.Range(4f, 6f);
+        float randomTime = Random.Range(minSpawnTime, maxSpawnTime);
         yield return new WaitForSeconds(randomTime);
 
 
